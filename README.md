@@ -1,7 +1,14 @@
 # musicAPI
-API root : http://localhost:8081/
 
-API Endpoints:
+## Installation:
+Clone the project, git clone git@github.com:quenel/musicAPI.git
+Go into the musicAPI folder, cd musicAPI.
+Start microserive, ./start_microservice.sh
+Start api, ./start_microservice.sh
+
+## API Endpoints:
+
+API root : http://localhost:8081/
 
 Title : Show all artists.
 <br>
