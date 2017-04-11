@@ -1,7 +1,7 @@
 # musicAPI
 
 ## Description:
-This api gives access to music data coming from musixmatch. The API allows you to get word cloud for artists albums and tracks. The microsevice will give you the top used word by artist, album or tracks and how often they occur.
+This api gives access to music data coming from musixmatch. The API allows you to get word cloud for artists albums and tracks. This data are made available by the microsevice that will first fetch data from musixmatch and then build the top used word for the different resources.
 
 ## Installation:
 Clone the project, git clone git@github.com:quenel/musicAPI.git
