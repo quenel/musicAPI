@@ -2,8 +2,11 @@
 
 ## Installation:
 Clone the project, git clone git@github.com:quenel/musicAPI.git
+<br>
 Go into the musicAPI folder, cd musicAPI.
+<br>
 Start microserive, ./start_microservice.sh
+<br>
 Start api, ./start_microservice.sh
 
 ## API Endpoints:
