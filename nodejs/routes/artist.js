@@ -34,7 +34,7 @@ app.get("/:id/wordcloud/", async (req, res, next) => {
 	try {
 		let wordcloudResp = await rpc.call("getArtistCloudWord", {"id" : id, "size" : size});
 		let artistResp = await rpc.call("getArtist", {"id" : id});
-		let artistWordCloud = entitiesartist.buildCloud(artistResp.id, artistResp.name, wordcloudResp);
+		let artistWordCloud = entities.artist.buildCloud(artistResp.id, artistResp.name, wordcloudResp);
 		res.json(artistWordCloud);
 	} catch (err) {	
 		next(err);

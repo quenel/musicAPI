@@ -12,7 +12,8 @@ const (
 
 var TargetArtists = []music.Artist{
 	{134, "Dire Straits", []*music.Album{}},
-	//{2, "Eminem", []*music.Album{}},
+	{49, "Radiohead", []*music.Album{}},
+	{426, "Eminem", []*music.Album{}},
 }
 
 type MusicRepo struct {
