@@ -4,6 +4,7 @@ API root : http://localhost:8081/
 API Endpoints:
 
 Title : Show all artists.
+<br>
 URL : /artists
 Method : GET
 URL Params : none
