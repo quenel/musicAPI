@@ -64,7 +64,7 @@ Method : GET
 <br>
 URL Params : Required: size=[integer]
 
-Title : Show all albums.
+Title : Show all tracks.
 <br>
 URL : /tracks
 <br>
@@ -72,7 +72,7 @@ Method : GET
 <br>
 URL Params : none
 
-Title : Show one album by id.
+Title : Show one track by id.
 <br>
 URL : /tracks/:id
 <br>
@@ -80,7 +80,7 @@ Method : GET
 <br>
 URL Params : Optional: expand_artist=[boolean] ; expand_album=[boolean]
 
-Title : Show one album cloud word by album id.
+Title : Show one track cloud word by album id.
 <br>
 URL : /tracks/:id/wordcloud
 <br>
